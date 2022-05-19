@@ -22,10 +22,12 @@ int main(void)
 
 
  UnregisteredCustomer* Unreg1;
- Unreg1 = new UnregisteredCustomer(001, "Jagath Perera", "No25,Ampara.", "JAGApera@gmail.com", 778899445); //not matching arguments with function prototype
+ Unreg1 = new UnregisteredCustomer(001, "Jagath Perera", 
+ "No25,Ampara.", "JAGApera@gmail.com", 778899445); 
+ 
 
  RegisteredCustomer* reg1;
- reg1 = new RegisteredCustomer(045, "Malith Fernando", "No98,Anuradhapura", "Cha45@gmail.com", 715458956, "Malith#@i", "1452chan#$");//not matching arguments with function prototype
+ reg1 = new RegisteredCustomer(045, "Malith Fernando", "No98,Anuradhapura", "Cha45@gmail.com", 715458956, "Malith#@i", "1452chan#$");
 
  Cart* CRT;
  CRT = new Cart(789848, "08/05/2022", 150);
